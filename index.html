@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <title>My CSS Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+    
+<body>
+    <nav>
+        <ul class="topnav" id="dropdownClick">
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li class="topnav-right"><a href="#signin">Sign In</a></li>
+            <li class="topnav-right"><a href="#signup">Sign Up</a></li>
+            <li class="dropdownIcon"><a href="javascript:void(0);" onclick="dropdownMenu()">&#9776;</a></li>
+        </ul>
+    </nav>  
+   
+    <div class="container" id="section-1-gradient">
+        <div class="row">
+            <div class="col-6">
+                <div class="leftSide-col">
+                    <h1 class="large">Crazy Radness</h1>
+                    <h1 class="large">Made for Developers</h1>
+                </div>
+                <form>
+                    <div class="leftSide-col">
+                       <h2>Username</h2>
+                        <input class="inputbox" name="username" type="text" placeholder="Username">
+                       <h2>Password</h2>
+                        <input class="inputbox" name="password" type="text" placeholder="Password">
+                    </div>
+                </form>
+            </div>
+            <div class="col-6">
+                <div class="rightSide-col">
+                    <div class="videoContainer">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/brHXKFnW1eU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <header>
+        <h1 class="section2Header">The Standards of Awesomeness</h1>
+    </header>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="flag.png">
+                    </div>
+                    <label>Chat with Me</label>
+                    <p>With the health hazards and economic of mycotoxins, Africa amongst other continents is having one of the highest rates of foods and feeds infected with mycotoxins, due to the poverty rate, lack of awareness and weather conditions.</p>
+                </div>
+            </div>
+            
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="flag.png">
+                    </div>
+                    <label>Learn to Code</label>
+                    <p>With the health hazards and economic of mycotoxins, Africa amongst other continents is having one of the highest rates of foods and feeds infected with mycotoxins, due to the poverty rate, lack of awareness and weather conditions.</p>
+                </div>
+            </div>
+            
+            <div class="col-4">
+                <div class="box">
+                    <div class="icon">
+                        <img src="flag.png">
+                    </div>
+                    <label>Build an Empire</label>
+                    <p>With the health hazards and economic of mycotoxins, Africa amongst other continents is having one of the highest rates of foods and feeds infected with mycotoxins, due to the poverty rate, lack of awareness and weather conditions.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <button class="learnMore">Learn More</button>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <div class="container">
+        <div class="row">
+            <div class="col-7">
+                <article>
+                    <p>These factors have been studied and traditional methods have been put in place to detect foods and feeds contaminated with mycotoxins, which are taken off the field, take longer to get results, and are mostly distortive. More studies as reviewed in this paper show that on field detection on field, shorter results timing and non-distortive methods are very feasible. </p>
+                </article>
+            </div>
+            <div class="col-5">
+                <div class="friedChicken">
+                    <img src="crispy_fried_chicken.png">
+                </div>
+            </div>
+            </div>
+    </div>
+    
+    <footer class="footsy">
+        <div class="row">
+            <div class="col-3 mobileStack">
+                <h1>Company</h1>
+                <ul>
+                    <li>About</li>
+                    <li>Blog</li>
+                    <li>Careers</li>
+                </ul>
+            </div>
+            <div class="col-3 mobileStack">
+                <h1>Products</h1>
+                <ul>
+                    <li>Computers</li>
+                    <li>iPads</li>
+                    <li>iPhones</li>
+                </ul>
+            </div>
+            <div class="col-3 mobileStack">
+                <h1>Learn More</h1>
+                <ul>
+                    <li>Developers</li>
+                    <li>Designers</li>
+                    <li>Hackers</li>
+                </ul>
+            </div>
+            <div class="col-3 mobileStack">
+                <h1>Support</h1>
+                <ul>
+                    <li>Help</li>
+                    <li>QA</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    
+    
+    <script>
+        function dropdownMenu() {
+            var x = document.getElementById("dropdownClick");
+            if (x.className === "topnav") {
+              x.className += " responsive";
+                /*change topnav to topnav.responsive*/
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+     
+    
+</body>
+        
+</html>
