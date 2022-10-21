@@ -1,2 +1,2 @@
 # CSS-Project
-The project was done to revise some CSS lessons
+This is a CSS project. It was done to revise some CSS lessons 
