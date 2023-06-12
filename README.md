@@ -1,2 +1,2 @@
 # CSS-Project
-This is an elementary CSS project 
+This is an elementary CSS project by Sodiq
